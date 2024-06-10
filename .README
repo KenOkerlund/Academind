@@ -1,0 +1,13 @@
+This starting project is to cover the basics of React.js.
+
+It covers the following simple topics - 
+
+1. Components
+2. Props
+3. Outputting dynamic values & content
+4. Proper way of referencing images
+5. Reacting to events
+6. Custom arguments for event functions
+7. Event handling
+8. Managing state and react hooks
+10. Dynamic styling
