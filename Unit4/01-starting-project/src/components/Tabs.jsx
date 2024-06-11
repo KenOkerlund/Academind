@@ -1,10 +1,9 @@
 // This is to show how you can create multiple "Slots" in a component.
-export default function Tabs({ children, buttons }) {
+export default function Tabs({ children, buttons, ButtonsContainer = 'menu' }) {
+    //const ButtonsContainer = buttonsContainer;
     return (
         <>
-            <menu>
-                {buttons}
-            </menu>
+            <ButtonsContainer>{buttons}</ButtonsContainer>
             {children}
         </>
     )
